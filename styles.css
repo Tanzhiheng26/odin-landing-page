@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header,
+.content {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px 50px 100px;
+    gap: 50px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links a,
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.signup a {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 24px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item-container img {
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.item {
+    width: 200px;
+    text-align: center;
+}
+
+.info {
+    padding: 50px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.quote-container {
+    padding: 50px 300px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    text-align: justify; 
+    text-justify: inter-word; 
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.white-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    font-size: 18px;
+}
+
+.blue-container .signup a {
+    border: 2px solid white;
+}
+
+.call-1{
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.call-2 {
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.copyright {
+    margin: 30px;
+}
